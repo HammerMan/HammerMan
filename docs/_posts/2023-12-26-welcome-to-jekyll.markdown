@@ -1,29 +1,28 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome Me (and others)!"
 date:   2023-12-26 15:04:14 -0800
-categories: jekyll update
+categories: jekyll update helloworld
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# Yes. I know Markdown
 
-Jekyll requires blog post files to be named according to the following format:
+As a first blog post, this is straight buisness.  Most of this is from the boilerplate, which I am keeping to remember how to set up a post.
+To make more posts I will need to use the below format:
 
-`YEAR-MONTH-DAY-title.MARKUP`
+`YEAR-MONTH-DAY-title.markdown`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `markdown` is the file extension representing the format used in the file. After that, I will need to include some front matter included in this blog. 
 
-Jekyll also offers powerful support for code snippets:
+Jekyll uses some features that Markdown does not have out of the box. Testing one of these below:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight python %}
+def pythonCode(foo):
+  bar = "hi, "+foo
+  return bar
+print(pythonCode('Tom'))
+#=> reutrns 'hi, Tom' to sys.stdout
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+# Next Steps
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+I am still setting up this github page, and it may take another couple days to wrap up. Once it is done I have a few projects in mind I will spin up and begin blogging on.
